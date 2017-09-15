@@ -1,4 +1,4 @@
-package rosalind.info;
+//http://rosalind.info/problems/rna/
 
 import java.util.Scanner;
 
