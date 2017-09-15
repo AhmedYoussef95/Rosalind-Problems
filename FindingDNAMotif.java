@@ -1,7 +1,5 @@
 //http://rosalind.info/problems/subs/
 
-package rosalind.info;
-
 import java.util.Scanner;
 
 public class FindingDNAMotif {
