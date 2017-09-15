@@ -1,7 +1,5 @@
 //http://rosalind.info/problems/perm/
 
-package rosalind.info;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
