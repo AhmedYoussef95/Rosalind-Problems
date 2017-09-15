@@ -1,7 +1,5 @@
 //http://rosalind.info/problems/iev/
 
-package rosalind.info;
-
 import java.util.Scanner;
 
 public class CalculatingExpectedOffspring {
