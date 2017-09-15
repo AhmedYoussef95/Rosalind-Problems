@@ -23,7 +23,7 @@ public class countingNucleotides {
 			case 'T' : T++; break;
 			}
 		}
-		String v = A + " "+C+" "+G+" "+T;
+		String v = A + " " + C + " "+ G+ " " + T;
 		return v;
 	}
 
