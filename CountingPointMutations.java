@@ -1,7 +1,5 @@
 //http://rosalind.info/problems/hamm/
 
-package rosalind.info;
-
 import java.util.Scanner;
 
 public class CountingPointMutations {
