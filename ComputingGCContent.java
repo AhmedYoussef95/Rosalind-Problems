@@ -14,7 +14,7 @@ public class ComputingGCContent {
 		double topGC = 0;
 		boolean firstTime = true;
 		
-		//inout is up to 10 strings in FASTA format, i.e. 2-20 lines
+		//input is up to 10 strings in FASTA format, i.e. 2-20 lines
 		while ( true ) {
 			String s = br.readLine();
 			
