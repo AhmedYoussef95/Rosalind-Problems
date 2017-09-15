@@ -1,7 +1,5 @@
 //http://rosalind.info/problems/dna/  &  http://rosalind.info/problems/ini/
 
-package rosalind.info;
-
 import java.util.Scanner;
 
 public class countingNucleotides {
