@@ -49,8 +49,7 @@ public class ComputingGCContent {
 				currentDNA += s;
 				currentGC = gc(currentDNA);
 			}
-		}
-		
+		}	
 	}
 	
 	public static double gc(String s) {
@@ -61,5 +60,4 @@ public class ComputingGCContent {
 		}
 		return ( gc/(double)s.length() )*100;
 	}
-
 }
