@@ -41,8 +41,7 @@ public class ComputingGCContent {
 						topID = currentID;
 					}
 					currentID = s.substring(1);
-				}
-				
+				}	
 			}
 			
 			else {
