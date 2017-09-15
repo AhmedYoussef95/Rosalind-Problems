@@ -14,6 +14,7 @@ public class CountingPointMutations {
 	}
 	
 	public static int output(String s, String t) {
+		//Given two strings of equal length, the Hamming distance is the # of corresponding symbols that are different from each other
 		int hammingDistance = 0;
 		
 		//both strings are of equal length
