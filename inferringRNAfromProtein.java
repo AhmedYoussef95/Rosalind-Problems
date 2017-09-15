@@ -1,7 +1,5 @@
 //http://rosalind.info/problems/mrna/
 
-package rosalind.info;
-
 import java.util.Scanner;
 
 public class inferringRNAfromProtein {
