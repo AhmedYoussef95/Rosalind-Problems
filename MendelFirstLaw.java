@@ -1,7 +1,5 @@
 //http://rosalind.info/problems/iprb/
 
-package rosalind.info;
-
 import java.util.Scanner;
 
 public class MendelFirstLaw {
