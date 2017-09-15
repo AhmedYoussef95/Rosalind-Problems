@@ -13,6 +13,7 @@ public class MendelFirstLaw {
 		double m = sc.nextInt(); //heterozygous
 		double n = sc.nextInt(); //homozygous recessive
 		
+		//only interested in possibilities with dominant allele
 		double total = k+m+n;
 		double probBothDominant = (k/total)*((k-1)/(total-1));
 		double probBothHetero = (m/total)*((m-1)/(total-1));
