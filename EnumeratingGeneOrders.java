@@ -19,6 +19,7 @@ public class EnumeratingGeneOrders {
 		permutations(n,arr);
 	}
 	
+	//calculate factorial using recursion
 	public static int factorial(int n) {
 		if (n <= 1)
 			return 1;
@@ -29,9 +30,9 @@ public class EnumeratingGeneOrders {
 	static void permutations(int n, int [] array)
 	{
 	    if (n == 1) {
-	        for (int i = 0; i < array.length; i++) {
-				System.out.print(array[i]+ " ");
-			}
+	        for (int i = 0; i < array.length; i++) 
+			System.out.print(array[i]+ " ");
+			
 	        System.out.println();
 	        return;
 	    }
@@ -48,6 +49,4 @@ public class EnumeratingGeneOrders {
 	        }
 	    }
 	}
-
-
 }
