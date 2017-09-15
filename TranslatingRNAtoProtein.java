@@ -1,7 +1,5 @@
 //http://rosalind.info/problems/prot/
 
-package rosalind.info;
-
 import java.util.Scanner;
 
 public class TranslatingRNAtoProtein {
@@ -33,6 +31,7 @@ public class TranslatingRNAtoProtein {
 		return result;
 	}
 	
+	//manually coded codon table
 	public static void translate(String s) {
 		switch(s) {
 		case "AUG": protein += "M"; break;
