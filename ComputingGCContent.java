@@ -1,7 +1,5 @@
 //http://rosalind.info/problems/gc/
 
-package rosalind.info;
-
 import java.io.*;
 
 public class ComputingGCContent {
