@@ -1,7 +1,5 @@
 //http://rosalind.info/problems/splc/
 
-package rosalind.info;
-
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
