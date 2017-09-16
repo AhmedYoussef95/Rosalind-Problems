@@ -7,3 +7,7 @@ This repo contains my solutions to some of the problems on the website (rosalind
 All code is in Java.
 
 Link to profile: http://rosalind.info/users/AhmedYoussef95/
+
+# Progress:
+
+<img src='https://i.imgur.com/MDOAYUp.png' />
