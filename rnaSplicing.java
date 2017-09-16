@@ -28,11 +28,12 @@ public class rnaSplicing {
 			while((label = br.readLine()) != null) 
 				introns.add(br.readLine()); //line after label is the desired intron dna sequence
 			
+			//splice introns one-by-one
 			for (int i = 0; i < introns.size(); i++) 
 				splice(introns.get(i));
 			
-			String rna = transcribe();
-			String protein = translate(rna);
+			String rna = transcribe(); 		//transcribe DNA into mRNA
+			String protein = translate(rna);	//translate mRNA into Protein
 			System.out.println(protein);
 			br.close();         
 		}
@@ -78,7 +79,7 @@ public class rnaSplicing {
 			if(rna.substring(i,i+3).equals("AUG")) {
 				protein += 'M';	
 				break;
-				}	
+			}	
 		}
 		//check that start codon was actually found
 		if(i < rna.length()-3) {
