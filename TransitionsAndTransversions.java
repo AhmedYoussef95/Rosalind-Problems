@@ -1,7 +1,5 @@
 //http://rosalind.info/problems/tran/
 
-package rosalind.info;
-
 import java.util.Scanner;
 
 public class TransitionsAndTransversions {
@@ -32,6 +30,7 @@ public class TransitionsAndTransversions {
 		}
 		
 		System.out.println(transitions/transversions);
+		//Rosalind may give 'wrong answer' if output is not rounded to 11 decimal points, if so, use Decimal Format class
 		
 	}
 	
