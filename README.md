@@ -11,3 +11,5 @@ Link to profile: http://rosalind.info/users/AhmedYoussef95/
 # Progress:
 
 <img src='https://i.imgur.com/MDOAYUp.png' />
+
+Problem count: **16**
